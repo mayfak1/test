@@ -2,8 +2,9 @@ name: My-Github_Action
 
 on:
  push:
-  branches:
+  branches: 
    -main
+
 jobs:
  testing:
   runs-on: ubuntu-latest
