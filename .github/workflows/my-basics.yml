@@ -1,9 +1,7 @@
 name: My-Github_Action
 
 on:
- push:
-  branches: 
-   -main
+ workflow_dispatch:
 
 jobs:
  testing:
